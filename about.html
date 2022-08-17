@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Sweet Dots</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="https://www.clover.com/online-ordering/sweet-dots-nashville" target="_blank" >Order Online</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>    
+            </nav>
+
+            <h1>About Us</h1>
+
+        </section>
+
+        <!-----------About Us Content------------->
+
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>Who We Are</h1>
+                    <p>Sweet Dots is a hip, local, premium bubble tea cafe located on Elliston Place near Vanderbilt University in Nashville, Tennessee. The store provides a variety of unique flavors and concoctions, made fresh to order. Our team is committed to ensuring the quality and flavor of each drink we make. In other words, we are dedicated to serving our customers more than just simple drinks; they are part of an experience and a culture to be discovered. Let yourself be inspired by our flavors and must-have aromas. Immerse yourself in the superior quality of our bubble tea, as delicious as they are colorful, with an authentic and unique taste.</p>
+                    <a href="https://www.clover.com/online-ordering/sweet-dots-nashville" target="_blank" class="hero-btn">Order Online</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/aboutUs.jpg">
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="about-us-more">
+            <h1>Join Our Rewards Program</h1>
+        </section>
+
+        <section class="about-us2">
+
+            <div class="row">
+                <div class="about-col">
+                    <img src="images/aboutUs.jpg">
+                </div>
+                <div class="about-col">
+                    <h1>Earn a Free Drink</h1>
+                    <h3>Buy 10 drinks to earn one free drink on us!</h3>
+                    <p>HOW IT WORKS:<br>Type in your phone number or email at the register every time before you order. After 10 or more drink purchases, you will have earned a FREE drink. Your FREE drink is redeemable the next time you order!<br><br>FORGOT TO ENTER YOUR NUMBER/EMAIL?<br>Did you forget to enter your phone number or email before you ordered? Don't worry! Just ask for your receipt after ordering and there is a rewards code at the bottom of the receipt. Text the code to the number provided (737-52), and you can still earn your points!</p>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <!-----------Footer------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Sweet Dots is a hip, local, premium bubble tea cafe located on Elliston Place near Vanderbilt University in Nashville, Tennessee.<br>The store provides a variety of unique flavors and concoctions, made fresh to order. <br>Our team is committed to ensuring the quality and flavor of each drink we make.<br>In other words, we are dedicated to serving our customers more than just simple drinks;<br>they are part of an experience and a culture to be discovered.</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/sweetdotsnashville/" target="_blank"> <i class="fa fa-instagram fa-lg"></i></a>
+                <a href="https://www.facebook.com/SweetDotsinmusiccity/" target="_blank"> <i class="fa fa-facebook fa-lg"></i></a>
+                <a href="https://www.yelp.com/biz/sweet-dots-nashville" target="_blank"> <i class="fa fa-yelp fa-lg"></i></a>
+            </div>
+        </section>
+
+        <!-----------About Us-----------
+        <section class="aboutUS">
+            <h1>About Us</h1>
+            <p>Sweet Dots is a hip, local, premium bubble tea cafe located on Elliston Place near Vanderbilt University in Nashville, Tennessee. The store provides a variety of unique flavors and concoctions, made fresh to order. We are committed to ensure the quality and flavor of each drink we make. In other words, we are dedicated to serving our customers more than just simple drinks; they are part of an experience and a culture to be discovered.</p>
+        
+            <div class="row">
+                <div class="aboutUs-col">
+                    <img src="images/aboutUs1.png">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="aboutUs-col">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12886.516896280911!2d-86.81276216593702!3d36.151240107735376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886467e210407c0b%3A0x488fc534226db8a!2sSweet%20Dots!5e0!3m2!1sen!2sus!4v1658017942978!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+            </div>
+
+        </section>-->
+        
+
+
+        <!------JavaScript for Toggle Menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

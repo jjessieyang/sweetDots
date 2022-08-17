@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Sweet Dots</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="https://www.clover.com/online-ordering/sweet-dots-nashville" target="_blank" >Order Online</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>    
+            </nav>
+
+            <h1>Menu</h1>
+
+        </section>
+
+        
+        <!-----------Menu Content------------->
+
+        <section class="menu">
+
+            <div class="row">
+                <div class="menu2-col">
+                    <a href="https://www.clover.com/online-ordering/sweet-dots-nashville" target="_blank" class="hero-btn2">Order Online</a>
+                    <img src="images/menu1.png">
+                    <img src="images/menu2.png">
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------Footer------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Sweet Dots is a hip, local, premium bubble tea cafe located on Elliston Place near Vanderbilt University in Nashville, Tennessee.<br>The store provides a variety of unique flavors and concoctions, made fresh to order. <br>Our team is committed to ensuring the quality and flavor of each drink we make.<br>In other words, we are dedicated to serving our customers more than just simple drinks;<br>they are part of an experience and a culture to be discovered.</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/sweetdotsnashville/" target="_blank"> <i class="fa fa-instagram fa-lg"></i></a>
+                <a href="https://www.facebook.com/SweetDotsinmusiccity/" target="_blank"> <i class="fa fa-facebook fa-lg"></i></a>
+                <a href="https://www.yelp.com/biz/sweet-dots-nashville" target="_blank"> <i class="fa fa-yelp fa-lg"></i></a>
+            </div>
+        </section>
+
+      
+        
+
+
+        <!------JavaScript for Toggle Menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
